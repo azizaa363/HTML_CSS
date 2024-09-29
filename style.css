@@ -4,6 +4,8 @@ body{margin: 0;}
     display: flex;
     justify-content: space-between;
     background-color: rgb(142, 195, 166);
+    position: absolute;
+    width: 100%;
 }
 #navbar1{
     display:flex;
@@ -19,7 +21,63 @@ body{margin: 0;}
 }
 
 #navbar2{
-    background-color: grey;
+    background-color: rgb(168, 98, 98);
+    display: flex;
+    align-items: center;
+}
+
+#hela_darkmode{
+    display: flex;
+    align-items: center;
+    background-color: tomato;
+    height: 100%;
+    width: 150px;
+}
+
+#darkmode_text{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    
+    height: 100%;
+    color: blue;
+    
+    
+    
+}
+
+
+#darkmode_text p{
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+
+}
+
+#Signin_up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 6px;
+    background-color: rgb(68, 63, 170);
+    width: 120px;
+    height: 30px;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+#Signin_up p{
+    color: greenyellow;
+    margin: 0;
+}
+
+#Signin_up svg{
+    height:30px ;
+    margin-right: 5px;
 }
 
 #page {
@@ -28,6 +86,31 @@ body{margin: 0;}
 #section1{
     height: 100vh;
     background-color: rgb(178, 182, 180);
+    display: flex;
+    justify-content: center;
+
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+#hero1{
+    background-color: green;
+    height: 100%;
+    height: 50%;
+}
+#hero2{
+    background-color: yellowgreen;
+    height: 100%;
+    display: flex;
+    align-items:flex-end;
+    
+}
+#hero2_image img{
+    width: 80%;
 }
 #appstore, #googleplay{
     display: flex;
@@ -41,8 +124,40 @@ body{margin: 0;}
     height: 100px;
     /* flex-direction: column;
     justify-content: flex-end;
-hei
    height: 400px; */
    background-color: red;
 }
 
+#hero1_4{
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+#Discover_more {
+    background-color: aquamarine;
+    margin: 0%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+#Discover_more p{
+    margin: 0;
+    margin-left: 20px;
+}
+
+#arrow{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#arrow svg{
+
+}

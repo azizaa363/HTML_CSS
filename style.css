@@ -161,3 +161,163 @@ body{margin: 0;}
 #arrow svg{
 
 }
+
+/*______________________________________________________________________________________________________________________*/
+
+
+
+
+#section2{
+    height: 100vh;
+    background-color: rgb(178, 182, 180);
+    
+}
+
+#logobar{
+    height: 100px;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+#logo1{
+    background-color: yellow;
+    margin-left:16.25%;
+    margin-right: 2.5%;
+
+}
+
+#logo2{
+    background-color: blanchedalmond;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+
+    
+}
+
+#logo3{
+    background-color: yellow;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    
+}
+
+#logo4{
+    background-color: blanchedalmond;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    
+}
+
+#logo5{
+    background-color: yellow;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    
+}
+
+#logo6{
+    background-color: blanchedalmond;
+    margin-left: 2.5%;
+    margin-right: 16.25%;
+    
+}
+
+#heros2 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#heros2_1{
+    background-color: burlywood;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#heros2_2{
+    background-color: brown;
+    width: 50%;
+}
+#appfeautures{
+    background-color: salmon;
+    
+}
+
+#stapel{ 
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    height: 70%;
+}
+
+#stapel1{
+    background-color: aqua;
+}
+
+
+#stapel2{
+    background-color: brown;
+}
+
+#stapel1_1{
+    
+}
+
+
+
+
+/*______________________________________________________________________________________________________________________*/
+
+#Rubrik_section3{
+    background-color: blueviolet;
+    text-align: center;
+}
+
+
+
+#image_section3{
+    display: flex;
+    justify-content: center;
+}
+
+
+#Fotnot_section3{
+    text-align: center;
+}
+
+
+/*______________________________________________________________________________________________________________________*/
+#section4{
+    height: 100vh;
+}
+
+/*______________________________________________________________________________________________________________________*/
+
+#section5{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#sextion5_text{
+    background-color: red;
+}
+
+#section5_testomanial1{
+    background-color: yellow;
+}
+
+#section5_testomanial2{
+    background-color: green;
+}
+
+
+
+
+/*______________________________________________________________________________________________________________________*/

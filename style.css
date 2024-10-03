@@ -229,20 +229,22 @@ body{margin: 0;}
     background-color: blue;
     display: flex;
     justify-content: center;
+    height: 100%;
     
 }
 
 #heros2_1{
     background-color: burlywood;
-    width: 50%;
+    width: calc(500%/12);
     display: flex;
     justify-content: center;
     
 }
 
 #heros2_2{
-    background-color: brown;
-    width: 50%;
+    background-color:magenta;
+    width: calc(700%/12);
+
 }
 #appfeautures{
     background-color: salmon;
@@ -252,22 +254,75 @@ body{margin: 0;}
 #stapel{ 
     background-color: grey;
     display: flex;
-    justify-content: center;
-    height: 70%;
+    justify-content: left;
+
 }
 
 #stapel1{
     background-color: aqua;
+    width: 50%;
+    height: 100%;
+
+    
 }
 
 
 #stapel2{
-    background-color: brown;
+    background-color: yellowgreen;
+    width: 50%;
+    height: 100%;
 }
 
 #stapel1_1{
+    background-color: black;
+    height: calc(100%/3);
+    display: flex;
+    justify-content: left;
     
 }
+
+#stapel1_2{
+    background-color:white;
+    height: calc(100%/3);
+    display: flex;
+    justify-content: left;
+    
+}
+
+#stapel1_3{
+    background-color: black;
+    height: calc(100%/3);
+    display: flex;
+    justify-content: left;
+    
+}
+
+#stapel2_1{
+    background-color: white;
+    height: calc(100%/3);
+    display: flex;
+    justify-content: left;
+    
+}
+
+#stapel2_2{
+    background-color:black;
+    height: calc(100%/3);
+    display: flex;
+    justify-content: left;
+    
+}
+
+#stapel2_3{
+    background-color: white;
+    height: calc(100%/3);
+    display: flex;
+    justify-content: left;
+    
+}
+
+
+
 
 
 
@@ -286,7 +341,27 @@ body{margin: 0;}
     justify-content: center;
 }
 
+#img_section3_1{
+    background-color: violet;
+    width: calc(100%/3);
+    display: flex;
+    justify-content: right;
+    
+}
 
+#img_section3_2{
+    background-color: white;
+    width: calc(100%/3);
+    display: flex;
+    justify-content: center;
+}
+
+#img_section3_3{
+    background-color: violet;
+    width: calc(100%/3);
+    display: flex;
+    justify-content: left;
+}
 #Fotnot_section3{
     text-align: center;
 }
@@ -294,7 +369,72 @@ body{margin: 0;}
 
 /*______________________________________________________________________________________________________________________*/
 #section4{
+    background-color: darkcyan;
     height: 100vh;
+}
+
+#section4_over{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+
+
+
+#sec4_over_1{
+    background-color: skyblue;
+    width: 50%;
+}
+
+#sec4_over_2{
+    background-color: orangered;
+    width: 50%;
+}
+
+#sec4_over1_punktlista1{
+    background-color: black;
+    display: flex;
+    justify-content: left;
+    
+}
+
+#sec4_over1_punktlista2{
+    background-color: white;
+    display: flex;
+    justify-content: left;
+    
+}
+
+#sec4_over1_punktlista3{
+    background-color: black;
+    display: flex;
+    justify-content: left;
+    
+}
+
+
+
+#section4_under{
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content:center ;
+    height: 50%;
+    
+}
+
+#sec4_under_1{
+    background-color: blueviolet;
+    width: 50%;
+}
+
+#sec4_under_2{
+    background-color: darkred;
+    width: 50%;
+}
+
+#sec4_under2_sidolista{
+    display: flex;
 }
 
 /*______________________________________________________________________________________________________________________*/
@@ -307,17 +447,64 @@ body{margin: 0;}
 
 #sextion5_text{
     background-color: red;
+    width: calc(100%/3);
 }
 
 #section5_testomanial1{
     background-color: yellow;
+    width: calc(100%/3);
+
 }
 
 #section5_testomanial2{
     background-color: green;
+    width: calc(100%/3);
+
 }
 
 
 
 
 /*______________________________________________________________________________________________________________________*/
+
+#section6{
+    background-color: magenta;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+#sec6_1{
+    background-color: white;
+    width: calc(500%/12);
+}
+
+#sec6_2{
+    background-color: slategray ;
+    width: calc(700%/12);
+}
+
+#sec6_1_knappar{
+    display: flex;
+}
+
+#telefon{
+    background-color: aquamarine;
+    width:40%;
+}
+
+#mail{
+    background-color: maroon;
+    width:70%;
+}
+
+#telefon_under{
+    display: flex;
+    justify-content: left;
+}
+
+
+#mail_under{
+    display: flex;
+    justify-content: left;
+}
